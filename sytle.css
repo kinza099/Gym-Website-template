@@ -1,0 +1,240 @@
+#section1{
+    margin-bottom: 60px;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+}
+
+.navbar-brand span {
+    font-weight: bold;
+    color: #e96b02;
+}
+
+.navbar .nav-link {
+    color: #e96b02;
+}
+
+.navbar .nav-link:hover {
+    color: #e96b02;
+    text-decoration: underline;
+}
+
+.navbar .dropdown-item {
+    color: #e96b02;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.carousel-caption h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+body {
+    padding-top: 56px; /* Adjust based on the height of your navbar */
+}
+
+.container-fluid {
+    margin-top: -56px; /* Adjust this value based on the height of your navbar to remove the space */
+}
+
+
+#section2 h4{
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+}
+
+ .btn-primary-custom {
+            background-color: #e96b02;
+            border-color: #dc6502;
+        }
+.btn-primary-custom:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            background-color: #e96b02;
+            border-color: #dc6502;
+}
+
+.custom-button {
+    background-color: #fff;
+    border-color: #dc6502;
+    color: #e96b02;
+}
+.custom-button:hover {
+    background-color: #e96b02;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.content-container {
+    padding: 20px;
+}
+.content-title {
+    border-left: 3px solid #e96b02;
+    padding-left: 10px;
+}
+
+#section3{
+    margin-top: 150px ;
+}
+#section4 {
+    margin-top: 150px;
+    text-align: center;
+    padding: 0 15px; /* Default padding for smaller screens */
+}
+
+#section4 img {
+    display: block;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto; /* Centering the image */
+}
+
+#section4 small {
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    #section4 {
+        padding: 0 200px; /* Increased padding for medium and larger screens */
+    }
+
+    #section4 small {
+        margin-bottom: 10px;
+    }}
+    #section5 {
+        text-align: center;
+        /* background-color: #f8f9fa; */
+        width: 100%;
+        padding: 50px 0; /* Adding padding to ensure content is not at the very edge */
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    #section5 h2 {
+        margin-top: 50px;
+    }
+    
+    #Testimonies {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    
+    #t1 {
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #t1 img {
+        height: 100px;
+        border-radius: 50%;
+    }
+    
+    #t1 h3 {
+        margin: 0;
+    }
+    
+    .inner {
+        margin-left: 20px;
+    }
+    
+    .carousel-control-prev, .carousel-control-next {
+        width: 5%;
+    }
+    
+    .carousel-indicators {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .title-container {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .title-container h3 {
+        display: inline-block;
+        position: relative;
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+    }
+    .title-container h3::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 2px;
+        background-color: #e96b02;}
+        footer {
+            background-color: #1E1E1C;
+            color: #FFFFFF4D;
+            height: 500px;
+            padding: 20px 0;
+        }
+
+        #c1 {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        #c1 div {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        #c1 h5 {
+            color: #FFFFFF;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        #c1 #div1{
+            margin-right:100px;
+        }
+
+        #c1 p, #c1 ul {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        #c1 ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #c1 ul li {
+            margin-bottom: 10px;
+        }
+
+        .btn-primary-custom {
+            background-color: #e96b02;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #c2 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #c2 p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .social-icons i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
